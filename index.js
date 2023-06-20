@@ -134,6 +134,7 @@ function oyun(oyuncu, bilgisayar) {
 Şimdi kendi seçtiğin bir seçime karşı bilgisayarın rastgele oluşturduğu seçimi yukarıda yazdığın oyun fonsiyonu ile oynayın ve sonucu console'a yazdırın.
 Örn: console.log(oyun("Makas",bilgisayarinSecimi()))
 */
+
 function bilgisayarinSecimi() {
   const bilgisayar = Math.random();
   if (bilgisayar <= 1 / 3) {
@@ -227,7 +228,6 @@ function notHesapla(not) {
     return "F aldın";
   }
 }
-console.log(notHesapla(90));
 
 /* Bonus Çalışma: Sesli harf sayacı - Kaç tane sesli harf var? */
 
